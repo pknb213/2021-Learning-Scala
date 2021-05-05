@@ -15,9 +15,22 @@ object Basic extends App {
     def add_and_multiple(x: Int, y: Int)(m: Double): Double = (x+y) * m
     add_and_multiple(2, 4)(1.5)
   })
+  // 매개변수를 갖지 않는 메소드는 다음 형태이다.
   println({
-    // 매개변수를 갖지 않는 메소드는 다음 형태이다.
     def name: String = System.getProperty("user.name")
     "Hello, " + name + "!!!!"
   })
+  // Class : 이름과 생성자 매개변수를 정의한다.
+  // greet 메소드 반환 타입은 Unit으로 void와 유사하다. 실제로 ()로 쓰여진
+  // Unit타입의 싱글톤 값이 쓰인다는 차이가 있다.
+  class Greeter(prefix: String, suffix: String){
+    def greet(name: String): Unit =
+      println(prefix + name + suffix)
+  }
+  println({
+    val greeter = new Greeter("My name is ", "!!!")
+    greeter.greet("Scala")
+    greeter
+  })
+
 }
