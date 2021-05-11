@@ -1,2 +1,35 @@
-# Scala_Study
+# Scala Study
 2021. Scala Study Repo
+
+- Basics
+- Unified Types
+- Classes
+- Default Parameter Values
+- Named Arguments
+- Traits
+- Tuples
+- Class Composition with Mixins
+- Higher-order Functions
+- Nested Methods
+- Multiple Parameter Lists (Currying)
+- Case Classes
+- Pattern Matching
+- Singleton Objects
+- For Comprehensions
+- Generic Classes
+- Variances
+- Upper Type Bounds
+- Lower Type Bounds
+- Inner Classes
+- Abstract Type Members
+- Compound Types
+- Self-type
+- Implicit parameters
+- Implicit Conversions
+- Polymorphic Methods
+- Type Inference
+- Operators
+- By-name Parameters
+- Annotations
+- Packages and Imports
+- Package Objects
